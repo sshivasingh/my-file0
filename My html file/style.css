@@ -1,0 +1,226 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ body {
+	 font-family: calibri;
+ }
+ 
+ header{
+	 background-color: #28abe3;
+	 
+	 
+	 
+ }
+ header img{
+	 width:90px;
+	 margin-top:5px;
+	 float: left;
+	 
+ }
+ header h1{
+	 text-align:center;
+	 padding: 10px;
+	 font-size: 4em;
+	 color: #FFF;
+     text-shadow: 1px 1px 1px grey;
+ }
+ 
+ /*------Style Navbar------*/
+ 
+  nav ul{
+	  background-color: #2980b9;
+	  
+	  
+	  
+  }
+  
+  nav ul li,
+  nav ul li a {
+	  display:inline-block;
+	  color: #FFF;
+	  
+  }
+  
+  nav ul li a:link,
+  nav ul li a:visited {
+	  text-decoration:none;
+	  padding:10px;
+	  transition: all 0.2s;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a:active{
+	  background-color:#409ad5;
+	  
+  }
+  
+  nav .search{
+	  float:right;
+	  margin-top:9px;
+	  margin-right: 70px;
+	  width:20%;
+	  height:20px;
+	  border-radius:2px;
+	  border:none;
+	  text-indent: 5px;
+	  
+  }
+
+/*-----Main body area-----*/ 
+
+section{
+	background-color:#efefef;
+	margin:10px;
+	width:70%;
+	float: left;
+}
+
+article{
+	
+	
+}
+
+article .img {
+	width: 50px;
+	height:50px;
+	margin:2px;
+	float:left;
+	border-radius:100px;
+}
+
+ article .img2{
+	 width:90%;
+	 height:60%; 
+	
+ }
+ 
+ article .img9 {
+	 width:100%;
+	 height:400px;
+     float:left;
+	 margin:2px;
+	 
+ }
+ article p {
+	 padding:5px;
+	 
+ }
+ 
+ 
+
+  
+  article a{
+	 color:brown;
+ }
+ 
+ /*------Footer-------*/
+ 
+ footer {
+	 background-color:#28abe3;
+	 clear: both;
+	 text-align: center;
+	 color: #fff;
+	 padding:10px;
+ }
+ 
+ /*-----CONTACT PAGE-----*/
+ 
+
+ .form{
+	 width:80%;
+	 background-color: #efefef;
+	 margin: 15px;
+     margin-bottom:235px;
+ }
+ 
+ .form input[type='text'],
+ .form input[type='email'],
+ .form textarea {
+	 width: 50%;
+	 padding:10px;
+	 margin-top:5px;
+ }
+ 
+ .form input[type='submit']{
+	 background-color: #28abe3;
+	 border:none;
+	 color:#FFF;
+	 font-weight: bold;
+	 width:50%;
+	 padding: 10px;
+ margin-top: 5px;
+ }
+ 
+ 
+ /*------Login Page------*/
+ 
+ *{
+	 margin:0;
+	 padding:0;
+	 font-family:sans-serif;
+	 
+	 
+ }
+ 
+ body{
+	 
+	 background-color:#fff;
+ }
+ 
+ .login-form{
+	 width:80%;
+	 background-color: #efefef;
+	 margin: 15px;
+     margin-bottom:235px;
+ }
+ 
+ 
+ .login-form input[type='text'],
+ .login-form input[type='password']{
+	 width: 40%;
+	 padding:15px;
+	 margin-top:5px
+ }
+ .login-form input[type='submit']{
+	 background-color: #28abe3;
+	 border:none;
+	 color:#FFF;
+	 font-weight: bold;
+	 width:40%;
+	 padding: 10px;
+ margin-top: 5px;
+
+ }
+ 
+ 
+ 
+ /*------Signup page------*/
+  .signup-form{
+ width:80%;
+	 background-color: #efefef;
+	 margin: 15px;
+     margin-bottom:235px;
+ }
+ 
+ 
+ 
+ 
+ .signup-form input[type='text'],
+ .signup-form input[type='text'],
+ .signup-form input[type='email'],
+ .signup-form input[type='password']{
+	 width:35%;
+	 padding:10px;
+	 margin-top:5px
+ }
+ .signup-form input[type='submit']{
+	 background-color: #28abe3;
+	 border:none;
+	 color:#FFF;
+	 font-weight: bold;
+	 width:40%;
+	 padding: 10px;
+ margin-top: 5px;
+
+ }
